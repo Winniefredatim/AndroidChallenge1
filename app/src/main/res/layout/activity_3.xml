@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="184dp"
+        android:fontFamily="@font/aclonica"
+        android:text="My Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:src="@drawable/winnie" />
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="377dp"
+        android:background="#A9A9A9" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="150dp"
+        android:fontFamily="@font/aclonica"
+        android:text="@atimwinniefred" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="129dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="282dp"
+        android:layout_marginBottom="149dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Slack Username:" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="175dp"
+        android:layout_marginBottom="197dp"
+        android:fontFamily="@font/aclonica"
+        android:text="0774964385" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="292dp"
+        android:layout_marginBottom="198dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Phone number:" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="249dp"
+        android:fontFamily="@font/aclonica"
+        android:text="winniefredatimplexa@gmail.com" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="352dp"
+        android:layout_marginBottom="248dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Email:" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="264dp"
+        android:layout_marginBottom="288dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Uganda" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="335dp"
+        android:layout_marginBottom="287dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Country:" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="333dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Android" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="350dp"
+        android:layout_marginBottom="331dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Track:" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="394dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Atim Winniefred" />
+
+
+</RelativeLayout>
